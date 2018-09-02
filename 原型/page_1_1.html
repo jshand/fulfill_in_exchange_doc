@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+<link type="text/css" rel="stylesheet" href="style.css"/>
+<style>
+	input{
+		width:80%;
+	}
+
+</style>
+ </head>
+ <body>
+  
+    <table width="99%" class="table">
+        <caption>
+            <h2> 学生交流项目设定</h2>
+        </caption>
+       
+        <tr>
+            <td >
+               项目类型
+            </td>
+            <td>
+                <select name="">
+					<option value="" selected>临床实习
+					<option value="">假期访学
+					<option value="">攻读学位
+					<option value="">课程学习
+					<option value="">其他
+                </select>
+            </td>
+            <td>
+                项目总名
+            </td>
+            <td>
+               <input type="text" name="">
+            </td>
+        </tr>
+
+
+
+		<tr>
+            <td>
+               项目名称
+            </td>
+            <td>
+                <select name="">
+					<option value="" selected>项目总名+年度方位
+					<option value="" >项目总名+年度方位
+					<option value="" >项目总名+年度方位
+					<option value="" >项目总名+年度方位
+					<option value="" >项目总名+年度方位
+					
+                </select>
+				没有就录入:	<input type="text" name="">
+            </td>
+            <td>
+                项目编号
+            </td>
+            <td>
+               <input type="text" name=""   readonly="readonly" value="2019904-001">
+            </td>
+        </tr>
+
+
+
+
+		<tr>
+            <td>
+               项目开始时间
+            </td>
+            <td>
+                <input type="date" name="">
+            </td>
+            <td>
+               项目结束时间
+            </td>
+            <td>
+                <input type="date" name="">
+            </td>
+        </tr>
+
+
+
+		<tr>
+            <td>
+               项目交流天数
+            </td>
+            <td>
+                <input type="text" name="" value="根据开始和结束进行计算" readonly="readonly">
+            </td>
+            <td>
+               项目层次
+            </td>
+            <td>
+                <select name="">
+					<option value="" selected>学校项目
+					<option value="">院系项目
+					<option value="">个人项目
+                </select>
+            </td>
+        </tr>
+		
+
+		<tr>
+            <td>
+               经费来源
+            </td>
+            <td>
+                <select name="">
+					<option value="" selected>经费来源1
+					<option value="">经费来源2
+					<option value="">经费来源3
+                </select>
+            </td>
+            <td>
+               资助金额
+            </td>
+            <td>
+                 <input type="text" name="" value="是简单的录入还是如何处理，需确认逻辑！！！！" readonly="readonly">
+            </td>
+        </tr>
+
+		<tr>
+            <td>
+              项目概况
+            </td>
+            <td colspan="3">
+              <textarea name="" rows="7" cols="80"></textarea>
+            </td>
+            
+        </tr>
+		<tr>
+            <td>
+              项目资助计划
+            </td>
+            <td colspan="3">
+              <textarea name="" rows="7" cols="80"></textarea>
+            </td>
+            
+        </tr>
+
+		<tr>
+            <td>
+               交流目标机构名称
+            </td>
+            <td>
+                <select name="">
+					<option value="" selected>机构1
+					<option value="">机构2
+					<option value="">机构3
+					<option value="">机构4
+                </select>
+				<input type="text" value="机构5">
+            </td>
+            <td>
+               交流目标国家或地区
+            </td>
+            <td>
+                <input type="text" name="肯尼亚/坦桑尼亚/刚果金/刚果布">
+            </td>
+        </tr>
+
+
+
+		<tr>
+            <td>
+               项目收费标准
+            </td>
+            <td>
+                
+				<input type="text" name="8888">元/人
+            </td>
+            <td>  
+			项目交流人数计划
+            </td>
+            <td>
+                
+				<input type="text" name="8888">元/人
+            </td>
+
+
+
+        </tr>	
+		<tr>
+            <td>
+               项目收费说明
+            </td>
+          <td colspan="3">
+              <textarea name="" rows="7" cols="80"></textarea>
+            </td>
+            
+        </tr>	
+
+
+		<tr>
+            <td>
+               语言要求
+            </td>
+            <td>
+                <select name="">
+					<option value="" selected>中文
+					<option value="" >英语
+					<option value="" >俄语
+					
+					
+                </select>
+				没有就录入:	<input type="text" name="" value="法语" >
+            </td>
+            <td>
+               项目状态:
+            </td>
+            <td>暂存、发布、允许申报、申报结束、项目终结
+            </td>
+        </tr>
+
+<tr>
+            <td>
+              录入时间
+            </td>
+            <td>
+                 系统时间:2018年9月2日
+            </td>
+            <td>
+              项目录入人
+            </td>
+            <td>当前登录系统的教职工工号 例如:jg0000001
+            </td>
+        </tr>
+
+
+
+		<tr>
+            <td colspan="4">
+               
+					<table border="1" width="100%">
+
+						<caption>
+							<h2>学院学生</h2><button value="添加学生"  onclick="alert('点击按钮，通过弹出窗口的形式选择 学生？，选择完后学生多一条？')">添加学生</button>
+						</caption>
+					<tr>
+						<td>序号</td>
+						<td>学号</td>
+						<td>姓名</td>
+						<td>院系</td>
+						<td>操作</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>2016000001</td>
+						<td>张三</td>
+						<td>国际关系学院</td>
+						<td><a href="#" onclick="alert('删除 ')">删除</a></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>2016000002</td>
+						<td>李四</td>
+						<td>计算机学院</td>
+						<td><a href="#" onclick="alert('删除 ')">删除</a></td>
+					</tr>
+					</table>
+
+
+
+            </td>
+            
+        </tr>
+
+
+		
+		<tr>
+            <td colspan="4">
+               
+				<input type="button" value="暂存" onclick="" style="width:30%" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="button" value="发布" onclick="" style="width:30%" >
+           
+            </td>
+        </tr>
+
+
+
+
+
+
+
+	</table>
+ </body>
+</html>
